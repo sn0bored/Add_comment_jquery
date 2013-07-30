@@ -13,7 +13,7 @@ $(document).ready(function(){
 		$('ul').append('<li>'+input+'</li>')
 		$('form').hide();
 		$('#new_comment_button').show()
-		 $('textarea').last().val('')
+		$('textarea').last().val('')
 	}) 
 
 
@@ -24,11 +24,5 @@ var form = ("<div class='form_field'><form style='background-color:gray' > \
 			</textarea><input type='text' name='user'/> \
 			<button type = 'submit' class='create'>Create Comment</button></form></div>");
 
-
-// $form = $("<form name="input" action="#" method="get">
-//           <input type="textarea" name="comment">
-//           <input type="text" name="user"
-//          <input type="submit" value="Submit">
-//          </form>")
 
 
